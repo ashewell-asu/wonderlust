@@ -69,39 +69,48 @@ table {
 * {
     box-sizing: border-box;
 }
+
 html {
     background-image: linear-gradient(to right, #00bfd8, #63ccbf, #9fd5ae, #d0dbaf, #f4e1c1);
 }
+
 body {
     display: grid;
     grid-template-columns: 1fr;
 }
+
 header, nav, article, footer {
     padding: 1rem;
 }
+
 picture, #plan-your-trip, #about-your-destination  {
     margin-top:1rem;
 }
+
 header {
     grid-row:2/3;
     background-color: var(--turquoise-blue);
     border-top: 3px solid var(--soft-white);
     border-bottom: 3px solid var(--soft-white);
 }
+
 picture {
     display: grid;
     place-content: center;
 }
+
 nav {
     grid-row: 1/2;
     text-align:center;
 }
+
 nav {
     width: 100%;
     margin-top: 8rem;
     border: 0;
     padding: 1rem;
 }
+
 a#home {
     font-size: 3em;
     text-decoration: none;
